@@ -1,0 +1,31 @@
+.contactUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactUs h2{
+    text-align: center;
+    font-size: 30px;
+}
+.contactUs p{
+    border-bottom: 1px solid rgb(201, 201, 201);
+    width: 300px;
+   
+    padding-bottom: 12px;
+    text-align: left;
+    
+}
+.contactUs p{
+    margin: 10px;
+}
+.contactUs .button{
+    background-color: #FF6565;
+    width: 162px;
+    height: 42px;
+    border-radius: 50px;
+    color: white;
+    border-color: #FF6565;
+    margin: 50px;
+    
+}

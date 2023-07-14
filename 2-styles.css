@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Our results */
+.ouResult{
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.ouResult h1,h2,p{
+    color: white;
+    text-align: center;
+}
+.ouResult-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.oneResult-two{
+    margin: 90px;
+}
+.oneResult-two p{
+    padding: 2px;
+    margin: 0;
+}
+.oneResult-two h2{
+    padding: 20px;
+    margin: 0;
+}
+.pentagon{
+    width: 190px;
+    height: 190px;
+    -webkit-clip-path: polygon(50% 0%, 100% 38%, 83% 85%, 17% 85%, 0% 38%);
+clip-path: polygon(50% 0%, 100% 38%, 83% 85%, 17% 85%, 0% 38%);
+   background-color: #FF6565;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.pentagon  h1{
+    font-size: 30px;
+    margin: 0;
+}
+.pentagon  p{
+    font-size: 10px;
+    margin-top: 20px;
+}

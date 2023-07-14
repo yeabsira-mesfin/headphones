@@ -1,7 +1,9 @@
 /*Header*/
 .header{
     background-image: url("images/Hero.png");
-    background-position: 50%;
+    background-position: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .header .text{
     display: flex;
