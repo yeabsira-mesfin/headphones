@@ -1,0 +1,22 @@
+/* Section Two... What we do...*/
+.sectionTwo {
+    display: flex;
+    flex-direction: column;
+}
+.sectionTwo-text{
+    text-align: center;
+}
+.sectionTwo-pics{
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    margin: 60px;
+
+}
+.sectionTwo-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
