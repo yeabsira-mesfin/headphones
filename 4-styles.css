@@ -8,8 +8,10 @@
     display: flex;
     flex-direction: column;
     background: #071629;
-    color: rgb(107, 106, 106);
     text-align: center;
+}
+.footer p{
+    color: gray;
 }
 .img{
     display: flex;
